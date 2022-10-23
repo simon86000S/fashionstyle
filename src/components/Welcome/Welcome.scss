@@ -224,3 +224,65 @@
     }
   }
 }
+@media screen and (max-width: 1400px) {
+ 
+  .Welcome {
+    .container{
+      h1{
+        font-size: 60px;
+      }
+    }
+ .container2{
+ 
+h1{
+  font-size: 60px;
+}
+ }
+ .span{
+  position: absolute;
+  top:50%;
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+} }
+  }
+
+
+
+    @media screen and (max-width: 812px) {
+      .Welcome {
+        .banner{
+          .circle{
+            position: absolute;
+            right: 46px;
+          }
+        }
+        
+        .container{
+          h1{
+            font-size: 20px;
+          }
+        }
+        .container2{
+        
+       h1{
+         font-size: 20px;
+       }
+        } 
+      video{
+        width: 300px;
+        height:250px;
+      }
+    .span{
+      position: absolute;
+      top:50%;
+      width: 70%;
+      height: 70%;
+      object-fit: contain;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }}
+
+    }
