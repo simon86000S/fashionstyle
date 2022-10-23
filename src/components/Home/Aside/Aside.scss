@@ -36,3 +36,18 @@ p{
 
  }
 }
+
+@media screen and (max-width: 500px) {
+    .Aside{
+        .syndication{
+            h1{
+                font-size: 30px;
+            }
+            .Social{
+                h1{
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+    }

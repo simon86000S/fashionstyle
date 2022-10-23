@@ -9,4 +9,15 @@
         
     }
     }
-    
+
+    @media screen and (max-width: 500px) {
+        .Wrapper{
+            .Menu{
+                position: fixed;
+                right: 0px;
+                z-index: 17;
+                
+        
+        }
+          }
+        }
