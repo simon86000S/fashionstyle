@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/fashionstyle/static/css/main.0ccd53f5.css",
+    "main.js": "/fashionstyle/static/js/main.c89ee3d0.js",
+    "static/js/787.8f6c0d14.chunk.js": "/fashionstyle/static/js/787.8f6c0d14.chunk.js",
+    "static/media/model2.mp4": "/fashionstyle/static/media/model2.7362764336efee12126f.mp4",
+    "static/media/videoF.mp4": "/fashionstyle/static/media/videoF.10e5ba003591296f3a02.mp4",
+    "static/media/defi.mp4": "/fashionstyle/static/media/defi.6b22a365d43802d3a52f.mp4",
+    "static/media/model.mp4": "/fashionstyle/static/media/model.645960fd0e095124bfb1.mp4",
+    "static/media/video2.mp4": "/fashionstyle/static/media/video2.973c947b5bed0b262bb5.mp4",
+    "static/media/running.mp4": "/fashionstyle/static/media/running.dc6bb65838a6890011f5.mp4",
+    "index.html": "/fashionstyle/index.html",
+    "main.0ccd53f5.css.map": "/fashionstyle/static/css/main.0ccd53f5.css.map",
+    "main.c89ee3d0.js.map": "/fashionstyle/static/js/main.c89ee3d0.js.map",
+    "787.8f6c0d14.chunk.js.map": "/fashionstyle/static/js/787.8f6c0d14.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ccd53f5.css",
+    "static/js/main.c89ee3d0.js"
+  ]
+}
