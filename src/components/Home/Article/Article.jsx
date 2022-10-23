@@ -29,7 +29,7 @@ function Article() {
         </div>
         <div className="contact">
          
-<h1>Studio:<br/>Simon Audrain
+<h1><p>Studio:</p>Simon Audrain
   Studio Manager
   simondu06730@hotmail.fr
   064845645

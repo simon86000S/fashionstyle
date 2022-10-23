@@ -6,15 +6,18 @@ function Aside() {
     <div className="Aside">
       <div className="syndication">
         <h1>
-          Syndication:
-          <br />
+          <p>Syndication:</p>
           AUGUST INFO@STEGE.COM (212)154824
         </h1>
       </div>
       <div className="Social">
-        <h1>Social:<br/>INSTAGRAM</h1>
+        <h1>
+          <p>Social:</p>INSTAGRAM
+        </h1>
       </div>
-      <div className="indexBack"><a href='/'>INDEX -Back to top</a></div>
+      <div className="indexBack">
+        <a href="/">INDEX -Back to top</a>
+      </div>
     </div>
   );
 }
