@@ -2,6 +2,7 @@
     height: 100vh;
     background-color: rgb(196, 196, 196);
     font-weight: bolder;
+    position: relative;
     .syndication{
         max-width: 500px;
         padding-top: 100px;
@@ -24,6 +25,8 @@ p{
 }
  }
  .indexBack{
+    position: absolute;
+    bottom:0;
     a{
         color:#936CD2;
         font-size: 30px;  

@@ -10,6 +10,7 @@ const Row = () => {
 
   return (
     <div id='#/' className="Wrapper">
+      <div className="author"><p>A<span >udrain</span></p><p>S<span>imon</span></p></div>
       <div className="wrapper-top ">
         <div className="img1"></div>
         <div className="img2"></div>

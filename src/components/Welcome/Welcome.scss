@@ -1,12 +1,14 @@
 .Welcome {
   height: 100vh;
   background-color: #228cce;
+  overflow-y: hidden;
 
   .nav {
     position: fixed;
     right: 15px;
 
     cursor: pointer;
+
     text-decoration: none;
   }
 
@@ -16,6 +18,37 @@
   }
   .banner {
     display: flex;
+    .circle {
+      position: absolute;
+      top: 80px;
+      right: 180px;
+      width: 120px;
+      height: 120px;
+      background-color: white;
+      border-radius: 50%;
+      cursor:pointer;
+      z-index: 15;
+      p {
+        position: absolute;
+        
+        font-size: 30px;
+        left:25px;
+        top:45px;
+     
+        color: rgb(230, 120, 120);
+        transform: rotate(50deg);
+       
+        }
+       
+   &:hover{
+    p{
+      transform: rotate(1100deg);
+      transition: all 1s ease-in-out;
+     
+    }
+ 
+   }
+    }
     video {
       position: absolute;
       top: 0;
@@ -55,6 +88,7 @@
     flex: 1;
     height: 100vh;
     width: 100%;
+
     h1 {
       font-size: 110px;
       &:hover {
@@ -75,12 +109,17 @@
     left: 90%;
     width: 60%;
     height: 80%;
+    
     background-image: url("https://images.pexels.com/photos/2584269/pexels-photo-2584269.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
     background-size: cover;
+  }
+  .circle{
+    display: none;
   }
   .container2 {
     h1 {
       opacity: 0;
+     
     }
   }
   .container {
@@ -102,6 +141,9 @@
     height: 80%;
     background-size: cover;
     background-image: url("https://images.pexels.com/photos/859195/pexels-photo-859195.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  }
+  .circle{
+    display: none;
   }
   .container {
     .portrait {
@@ -131,17 +173,54 @@
     background-size: cover;
     background-image: url("https://images.pexels.com/photos/3323163/pexels-photo-3323163.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   }
+  .circle{
+    display: none;
+  }
   .container {
     h1 {
       opacity: 0;
     }
   }
 
-.container2 {
-  .films {
+  .container2 {
+    .films {
+      h1 {
+        opacity: 0;
+      }
+    }
+  }
+}
+
+.backgroundFilm {
+  transition: all 1s ease-in-out;
+  position: relative;
+  background-color: rgb(213, 213, 36);
+  .span {
+    content: "";
+    position: absolute;
+    bottom: 20px;
+    left: 60%;
+    width: 60%;
+    height: 80%;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    background-image: url("https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  }
+  .circle{
+    display: none;
+  }
+  .container {
     h1 {
       opacity: 0;
     }
   }
-}
+
+  .container2 {
+    .project {
+      h1 {
+        opacity: 0;
+      }
+    }
+  }
 }

@@ -1,5 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
 .Wrapper {
+  .author {
+    cursor: pointer;
+    position: relative;
+    padding:20px;
+    display: flex;
+
+  
+    
+    .name{
+      margin-left:15px;
+      
+    }
+p {
+  color:purple;
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin-left: 5px;
+  
+}
+    span {
+    
+      opacity: 0;
+      transition: all 1s ease-in;
+      width: 0px;
+      color:purple;
+    
+
+     
+    }
+    &:hover {
+      span{  opacity: 1;}
+   
+    }}
   h1 {
     position: absolute;
     top: 15%;
@@ -7,12 +40,12 @@
     z-index: 15;
     font-size: 200px;
     color: rgb(27, 57, 190);
-    font-family: 'Monoton';
-      z-index: 2;
+    font-family: "Monoton";
+    z-index: 2;
     transition: all 2s ease-in-out;
-    cursor: pointer;;
-    &:hover{
-      color:rgb(237, 52, 182);
+    cursor: pointer;
+    &:hover {
+      color: rgb(237, 52, 182);
       transition: all 2s ease-in-out;
     }
   }
@@ -490,7 +523,6 @@
     background-size: contain;
     animation: move 20s ease-in-out infinite alternate;
   }
-  
 }
 
 @keyframes move {

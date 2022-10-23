@@ -7,6 +7,7 @@ function Welcome() {
   const [handleChangeBack, setHandleChange] = useState(false);
   const [handleProject, sethandleProject] = useState(false);
   const [Contact, setContact] = useState(false);
+  const [Film, setFilm] = useState(false);
 
   const handleChange = () => {
     setHandleChange(true);
@@ -26,11 +27,18 @@ function Welcome() {
   const handleContactOut = () => {
     setContact(false);
   };
+  const handleFilm = () => {
+    setFilm(true);
+  };
+  const handleFilmOut = () => {
+    setFilm(false);
+  };
 
   return (
     <div
       className={`Welcome ${handleChangeBack &&
-        "backgroundChange"} ${handleProject && "backgroundProject"} ${Contact && 'backgroundContact'}`}
+        "backgroundChange"} ${handleProject && "backgroundProject"} ${Contact &&
+        "backgroundContact"} ${Film && "backgroundFilm"}`}
     >
       <div className="nav">
         <Link style={{ textDecoration: "none" }} to="/">
@@ -38,14 +46,18 @@ function Welcome() {
         </Link>
       </div>
       <div className="banner">
-      <video
-                type="video/mp4"
-                width="420"
-                autoPlay
-                loop
-                height="440"
-                src={mannequin}
-              ></video>
+        <div className="circle">
+          <p>Books</p>
+        </div>
+        <video
+          type="video/mp4"
+          width="420"
+          autoPlay
+          loop
+          height="440"
+          src={mannequin}
+        ></video>
+
         <div className="container">
           <div
             onMouseLeave={handleOut}
@@ -61,19 +73,24 @@ function Welcome() {
             onMouseEnter={handleChangeProject}
             className="Commission"
           >
-            <h1>
-              COMMISSION{" "}
-             
-            </h1>
+            <h1>COMMISSION </h1>
             <span className="span"></span>
           </div>
         </div>
         <div className="container2">
-          <div onMouseLeave={handleContactOut}
-            onMouseEnter={handleContact}className="project">
+          <div
+            onMouseLeave={handleContactOut}
+            onMouseEnter={handleContact}
+            className="project"
+          >
             <h1>PROJECTS</h1>
           </div>
-          <div className="films">
+
+          <div
+            onMouseLeave={handleFilmOut}
+            onMouseEnter={handleFilm}
+            className="films"
+          >
             <h1>FILMS</h1>
           </div>
         </div>
