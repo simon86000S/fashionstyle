@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fashionstyle/static/css/main.bcd56f5b.css",
-    "main.js": "/fashionstyle/static/js/main.f26e9c34.js",
+    "main.css": "/fashionstyle/static/css/main.da17ad1d.css",
+    "main.js": "/fashionstyle/static/js/main.f52312e2.js",
     "static/js/787.8f6c0d14.chunk.js": "/fashionstyle/static/js/787.8f6c0d14.chunk.js",
     "static/media/model2.mp4": "/fashionstyle/static/media/model2.7362764336efee12126f.mp4",
     "static/media/videoF.mp4": "/fashionstyle/static/media/videoF.10e5ba003591296f3a02.mp4",
@@ -11,12 +11,12 @@
     "static/media/video2.mp4": "/fashionstyle/static/media/video2.973c947b5bed0b262bb5.mp4",
     "static/media/running.mp4": "/fashionstyle/static/media/running.dc6bb65838a6890011f5.mp4",
     "index.html": "/fashionstyle/index.html",
-    "main.bcd56f5b.css.map": "/fashionstyle/static/css/main.bcd56f5b.css.map",
-    "main.f26e9c34.js.map": "/fashionstyle/static/js/main.f26e9c34.js.map",
+    "main.da17ad1d.css.map": "/fashionstyle/static/css/main.da17ad1d.css.map",
+    "main.f52312e2.js.map": "/fashionstyle/static/js/main.f52312e2.js.map",
     "787.8f6c0d14.chunk.js.map": "/fashionstyle/static/js/787.8f6c0d14.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcd56f5b.css",
-    "static/js/main.f26e9c34.js"
+    "static/css/main.da17ad1d.css",
+    "static/js/main.f52312e2.js"
   ]
 }
