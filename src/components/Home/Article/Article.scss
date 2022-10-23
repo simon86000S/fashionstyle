@@ -38,6 +38,13 @@
 
 @media screen and (max-width: 500px) {
  .Article{
+  .container{
+    .desc{
+      h1{
+        font-size: 25px;
+      }
+    }
+  }
   .contact{
     p{font-size: 15px;}
     h1{
