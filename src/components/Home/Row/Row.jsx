@@ -6,6 +6,7 @@ import model from "../../assets/img/model.mp4";
 import video from "../../assets/img/videoF.mp4";
 import video2 from "../../assets/img/video2.mp4";
 import model2 from "../../assets/img/model2.mp4";
+import modelWomen from '../../assets/img/modelWomen.mp4';
 const Row = () => {
 
   return (
@@ -65,7 +66,16 @@ const Row = () => {
       <div className="wrapper-bottom">
         <div className=" img img1"></div>
         <div className="img img2"></div>
-        <div className=" img img3"></div>
+        <div className=" img img3">
+        <video
+            src={modelWomen}
+            type="video/mp4"
+            width="420"
+            autoPlay
+            loop
+            height="240"
+          ></video>{" "}
+        </div>
 
         <div className="img img4"></div>
         <div className="img img5">
