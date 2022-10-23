@@ -31,8 +31,7 @@ function Article() {
          
 <h1><p>Studio:</p>Simon Audrain
   Studio Manager
-  simondu06730@hotmail.fr
-  064845645
+ 
 </h1>
         </div>
         
