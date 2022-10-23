@@ -41,7 +41,7 @@ function Welcome() {
         "backgroundContact"} ${Film && "backgroundFilm"}`}
     >
       <div className="nav">
-        <Link style={{ textDecoration: "none" }} to="/">
+        <Link style={{ textDecoration: "none" }} to="/fashionstyle">
           <h1>Close</h1>
         </Link>
       </div>
