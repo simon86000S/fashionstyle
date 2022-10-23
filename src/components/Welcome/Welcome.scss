@@ -1,6 +1,7 @@
 .Welcome {
   height: 100vh;
   background-color: #936cd2;
+  
   .nav {
     position: fixed;
     right: 15px;
@@ -54,4 +55,15 @@
       }
     }
   }
+  
 }
+.backgroundChange{
+
+  transition:  5s ease-in-out;
+  position: relative;
+  background-size: contain;
+  background-image: url('https://images.pexels.com/photos/13850240/pexels-photo-13850240.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+}
+
+
+

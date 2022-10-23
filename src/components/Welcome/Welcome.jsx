@@ -1,11 +1,20 @@
 import React, { useState } from "react";
 import "../Welcome/Welcome.scss";
 import { Link } from "react-router-dom";
-import women from "../assets/img/womenY.jpeg";
 
 function Welcome() {
+  const [handleChangeBack, setHandleChange] = useState(false);
+
+  const handleChange = () => {
+    if (handleChangeBack === false) {
+      setHandleChange(true);
+    } else {
+      setHandleChange(false);
+    }
+  };
+
   return (
-    <div className="Welcome">
+    <div className={`Welcome ${handleChangeBack && "backgroundChange"}`}>
       <div className="nav">
         <Link style={{ textDecoration: "none" }} to="/">
           <h1>Close</h1>
@@ -13,12 +22,9 @@ function Welcome() {
       </div>
       <div className="banner">
         <div className="container">
-          <div className="portrait">
-            <h1>Portraits</h1>
+          <div onMouseMove={handleChange} className="portrait">
+            <h1 >Portraits</h1>
           </div>
-      
-             
-            
 
           <div className="Commission">
             <h1 className="commission">Commission</h1>
