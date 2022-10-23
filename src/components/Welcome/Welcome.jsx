@@ -1,41 +1,80 @@
 import React, { useState } from "react";
 import "../Welcome/Welcome.scss";
 import { Link } from "react-router-dom";
+import mannequin from "../assets/img/mannequin.mp4";
 
 function Welcome() {
   const [handleChangeBack, setHandleChange] = useState(false);
+  const [handleProject, sethandleProject] = useState(false);
+  const [Contact, setContact] = useState(false);
 
   const handleChange = () => {
-    if (handleChangeBack === false) {
-      setHandleChange(true);
-    } else {
-      setHandleChange(false);
-    }
+    setHandleChange(true);
+  };
+  const handleOut = () => {
+    setHandleChange(false);
+  };
+  const handleChangeProject = () => {
+    sethandleProject(true);
+  };
+  const handleProjectOut = () => {
+    sethandleProject(false);
+  };
+  const handleContact = () => {
+    setContact(true);
+  };
+  const handleContactOut = () => {
+    setContact(false);
   };
 
   return (
-    <div className={`Welcome ${handleChangeBack && "backgroundChange"}`}>
+    <div
+      className={`Welcome ${handleChangeBack &&
+        "backgroundChange"} ${handleProject && "backgroundProject"} ${Contact && 'backgroundContact'}`}
+    >
       <div className="nav">
         <Link style={{ textDecoration: "none" }} to="/">
           <h1>Close</h1>
         </Link>
       </div>
       <div className="banner">
+      <video
+                type="video/mp4"
+                width="420"
+                autoPlay
+                loop
+                height="440"
+                src={mannequin}
+              ></video>
         <div className="container">
-          <div onMouseMove={handleChange} className="portrait">
-            <h1 >Portraits</h1>
+          <div
+            onMouseLeave={handleOut}
+            onMouseEnter={handleChange}
+            className="portrait"
+          >
+            <h1 className="portrait">PORTRAIT²</h1>
+            <span className="span"></span>
           </div>
 
-          <div className="Commission">
-            <h1 className="commission">Commission</h1>
+          <div
+            onMouseLeave={handleProjectOut}
+            onMouseEnter={handleChangeProject}
+            className="Commission"
+          >
+            <h1>
+              COMMISSION{" "}
+             
+            </h1>
+            <span className="span"></span>
           </div>
         </div>
         <div className="container2">
-          <div className="portrait">
-            <h1>Projects</h1>
+          <div onMouseLeave={handleContactOut}
+            onMouseEnter={handleContact}className="project">
+            <h1>PROJECTS</h1>
           </div>
           <div className="films">
-            <h1>Films</h1>
+            <h1>FILMS</h1>
           </div>
         </div>
       </div>
